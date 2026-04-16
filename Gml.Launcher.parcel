@@ -1,0 +1,42 @@
+{
+    "GeneralSettings": {
+        "NetProjectPath": "Gml.Launcher.csproj",
+        "ApplicationName": "GmlLauncher",
+        "Version": "1.0.0",
+        "PackageName": {
+            "$type": "msbuild",
+            "property": "AssemblyName"
+        },
+        "AssemblyName": {
+            "$type": "msbuild",
+            "property": "AssemblyName"
+        }
+    },
+    "LinuxSettings": {
+        "InstallDirName": "gml-launcher",
+        "AppIcon": "Assets/Images/logo.ico",
+        "Maintainer": "Recloud LLC",
+        "CreateBinSymlink": "True"
+    },
+    "Win32Settings": {
+        "InstallerIcon": "Assets/Images/logo.ico",
+        "Company": "Recloud LLC",
+        "CompanyFolder": "True",
+        "IncludeUninstaller": "True"
+    },
+    "MacOsSettings": {
+        "CreateBundle": true,
+        "BundleIdentifier": "com.recloud.gml.launcher",
+        "TeamId": "6J85K698XU",
+        "BundleCategory": "Games",
+        "AppIcon": "Assets/Images/logo.ico",
+        "SigningCredentialsType": "AdHoc",
+        "NotaryCredentialsType": "AppleAccount"
+    },
+    "PublishSettings": {
+        "PublishTrimmed": "True",
+        "PublishAot": "True",
+        "PublishReadyToRun": "True",
+        "ExtraBuildProperties": {}
+    }
+}

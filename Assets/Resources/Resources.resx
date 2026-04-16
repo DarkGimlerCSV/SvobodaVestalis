@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AuthButtonText" xml:space="preserve">
+    <value>Sign in</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Play" xml:space="preserve">
+    <value>Play</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="ModsList" xml:space="preserve">
+    <value>Mods list</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="InvalidAuthData" xml:space="preserve">
+    <value>Auth error</value>
+  </data>
+  <data name="LostConnection" xml:space="preserve">
+    <value>Lost connection to server</value>
+  </data>
+  <data name="Reconnecting" xml:space="preserve">
+    <value>Reconnecting....</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>BACK</value>
+  </data>
+  <data name="Cabinet" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="ProfileNotConfigured" xml:space="preserve">
+    <value>Profile not configured</value>
+  </data>
+  <data name="SettingsRamTitle" xml:space="preserve">
+    <value>Settings RAM</value>
+  </data>
+  <data name="SettingsRamDescription" xml:space="preserve">
+    <value>Configure the amount of RAM consumed.</value>
+  </data>
+  <data name="DynamicValue" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="FullScreen" xml:space="preserve">
+    <value>Full screen</value>
+  </data>
+  <data name="WindowSize" xml:space="preserve">
+    <value>Window size</value>
+  </data>
+  <data name="UnitMb" xml:space="preserve">
+    <value>MB</value>
+  </data>
+  <data name="NotSetting" xml:space="preserve">
+    <value>Failed to get launch settings. Please go to the client settings and try again.</value>
+  </data>
+  <data name="Updating" xml:space="preserve">
+    <value>Updating</value>
+  </data>
+  <data name="UpdatingDescription" xml:space="preserve">
+    <value>Retrieving updates</value>
+  </data>
+  <data name="CheckingFileIntegrity" xml:space="preserve">
+    <value>Checking file integrity</value>
+  </data>
+  <data name="Launching" xml:space="preserve">
+    <value>Launching</value>
+  </data>
+  <data name="PreparingLaunch" xml:space="preserve">
+    <value>Preparing to launch...</value>
+  </data>
+  <data name="Available" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="DefaultDRpcText" xml:space="preserve">
+    <value>Sits in the launcher</value>
+  </data>
+  <data name="PlayDRpcText" xml:space="preserve">
+    <value>Play in</value>
+  </data>
+  <data name="CheckUpdates" xml:space="preserve">
+    <value>Checking for updates</value>
+  </data>
+  <data name="InstallingUpdates" xml:space="preserve">
+    <value>Installing updates</value>
+  </data>
+  <data name="FailedOs" xml:space="preserve">
+    <value>Failed to determine the operating system</value>
+  </data>
+  <data name="OnServers" xml:space="preserve">
+    <value>On servers</value>
+  </data>
+  <data name="PlayersShort" xml:space="preserve">
+    <value>pl.</value>
+  </data>
+  <data name="JavaNotFound" xml:space="preserve">
+    <value>Unable to detect a loaded Java for your operating system, please contact support or the project administrator.</value>
+  </data>
+  <data name="InstallationDirectory" xml:space="preserve">
+    <value>Install folder</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="Stay" xml:space="preserve">
+    <value>Stay</value>
+  </data>
+  <data name="Files" xml:space="preserve">
+    <value>files</value>
+  </data>
+  <data name="InvalidFolder" xml:space="preserve">
+    <value>Failed to change the installation folder or an error occurred while changing the folder.</value>
+  </data>
+  <data name="IsDiskFull" xml:space="preserve">
+    <value>Not enough disk space</value>
+  </data>
+  <data name="GameProfileError" xml:space="preserve">
+    <value>Error initializing the game profile.</value>
+  </data>
+  <data name="InvalidSession" xml:space="preserve">
+    <value>Your game session in the launcher has expired, please log in again.</value>
+  </data>
+  <data name="VpnUse" xml:space="preserve">
+    <value>You are using a VPN connection, which may negatively affect connection quality and game client downloads. Please disable the VPN while running the launcher.</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="ModsListDescription" xml:space="preserve">
+    <value>On this page, you can view the list of modifications and select the ones you are interested in. You can dynamically enable or disable them at any time.</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="ModEnabled" xml:space="preserve">
+    <value>The mod has been successfully enabled</value>
+  </data>
+  <data name="ModDisabled" xml:space="preserve">
+    <value>The mod has been successfully disabled</value>
+  </data>
+  <data name="ModsEmpty" xml:space="preserve">
+    <value>There are no optional mods available for this profile. If you have any suggestions, please notify the administration.</value>
+  </data>
+  <data name="Empty" xml:space="preserve">
+    <value>Empty</value>
+  </data>
+  <data name="MinecraftExceptionStartException" xml:space="preserve">
+    <value>An error occurred during the game. The administration has already received the details of your error.
+
+</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>News</value>
+  </data>
+  <data name="BackendChecking" xml:space="preserve">
+    <value>Checking the server</value>
+  </data>
+  <data name="SentrySDKInit" xml:space="preserve">
+    <value>Initializing Sentry SDK</value>
+  </data>
+  <data name="BackendCheckingLonger" xml:space="preserve">
+    <value>Still checking the server</value>
+  </data>
+  <data name="OfflineDescription" xml:space="preserve">
+    <value>There is no access to the server. The launcher works offline.
+To exit offline mode, make sure that the server is available, and then restart the launcher.</value>
+  </data>
+  <data name="OfflineMode" xml:space="preserve">
+    <value>Offline mode</value>
+  </data>
+  <data name="CheckBackendButton" xml:space="preserve">
+    <value>Check the server</value>
+  </data>
+  <data name="CheckBackendMessage" xml:space="preserve">
+    <value>Checking the availability of the server, please wait</value>
+  </data>
+  <data name="CheckBackendResultFailed" xml:space="preserve">
+    <value>Server is offline right now. Try again later</value>
+  </data>
+  <data name="CheckBackendResultSuccessful" xml:space="preserve">
+    <value>Server is online. You need to restart the launcher to turn off offline mode</value>
+  </data>
+  <data name="CheckBackendTitle" xml:space="preserve">
+    <value>Checking the server</value>
+  </data>
+  <data name="RestartButton" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="NewsOffline" xml:space="preserve">
+    <value>Unable to load news</value>
+  </data>
+  <data name="NewsEmptyTitle" xml:space="preserve">
+    <value>There is no news right now</value>
+  </data>
+  <data name="NewsEmptyContent" xml:space="preserve">
+    <value>It's empty here</value>
+  </data>
+  <data name="BackendOffline" xml:space="preserve">
+    <value>The server is not responding</value>
+  </data>
+  <data name="TwoFactorTitle" xml:space="preserve">
+    <value>Two-factor authentication</value>
+  </data>
+  <data name="TwoFactorDescription" xml:space="preserve">
+    <value>Please enter the verification code from your authentication app.</value>
+  </data>
+</root>
